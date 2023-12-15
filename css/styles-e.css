@@ -1,7 +1,7 @@
 /*
-Author:
-Date:
-File Name: 
+Author: Connor Shoen
+Date: 12/15/2023
+File Name: styles-e.css
 */
 
 /* CSS Reset */
@@ -24,6 +24,48 @@ header {
 	color: #dfe7c4;
 	padding: 2%;
     text-align: center;
+}
+
+.makeshift-grid {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	justify-content: center;
+}
+
+#waffle-jeans {
+	display: inline-block;
+	width: 26%;
+	margin: 0 auto;
+	padding: 3% 2%;
+}
+
+#frog-bricks {
+	display: inline-block;
+	width: 26%;
+	border-left: 2px #000 solid;
+	border-right: 2px #000 solid;
+	margin: 0 auto;
+	padding: 3% 2%;
+}
+
+#ham-jumprope {
+	display: inline-block;
+	width: 26%;
+	margin: 0 auto;
+	padding: 3% 2%;
+}
+
+.pepperoni-machete {
+	display: block;
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+	border-radius: 200px;
+	margin: 5% 0;
+}
+
+.pepperoni-machete a {
+	color: #fff;
+	text-decoration: none;
 }
 
 /* Style rules for main content  */
