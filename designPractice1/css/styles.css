@@ -1,0 +1,63 @@
+/* CSS Document */
+
+/* CSS Reset */
+body, img, header, main, h1, h2, p, footer {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* Body CSS*/
+body {
+	color: #EAFFBF;
+	background-color: #AB53F2;
+}
+
+/* Header CSS */
+header {
+	text-align: center;
+}
+
+/* Container CSS */
+#container {
+	display: grid;
+	padding: .99%;
+	background-color: #000;
+	width: 95%;
+	grid-template-columns: 29% 29% 29%;
+	grid-template-areas: 
+		"nav mn sid";
+	grid-gap: 3%;
+	justify-content: center;
+	border: 10px #FF48EB dashed;
+}
+
+#nav {
+	grid-area: nav;
+	background-color: #0F097A;
+	color: #A4DFF7;
+	max-width: 100%;
+}
+
+#main {
+	grid-area: mn;
+	background-color: #1ACD1C;
+	color: #000;
+	max-width: 100%;
+}
+
+h2 {
+	font-size: 1.4em
+}
+
+#sidebar {
+	grid-area: sid;
+	background-color: #A70000;
+	color: #DBB23E;
+	max-width: 100%;
+}
+
+/* Footer CSS */
+footer {
+	text-align: center;
+}
