@@ -1,0 +1,83 @@
+/*
+Author: Connor Shoen
+Date: 12/15/2023
+File Name: styles-e.css
+*/
+
+/* CSS Reset */
+body, header, main, footer, h1, h3, section, article {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rule for body */
+body {
+	background-color: #dfe7c4;
+}
+
+/* Style rule for header */
+header {
+	font-family: Verdana, Arial, sans-serif;
+	margin-top: 0.2em;
+	background-color: #628c45;
+	color: #dfe7c4;
+	padding: 2%;
+    text-align: center;
+}
+
+.makeshift-grid {
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	justify-content: center;
+}
+
+#waffle-jeans {
+	display: inline-block;
+	width: 26%;
+	margin: 0 auto;
+	padding: 3% 2%;
+}
+
+#frog-bricks {
+	display: inline-block;
+	width: 26%;
+	border-left: 2px #000 solid;
+	border-right: 2px #000 solid;
+	margin: 0 auto;
+	padding: 3% 2%;
+}
+
+#ham-jumprope {
+	display: inline-block;
+	width: 26%;
+	margin: 0 auto;
+	padding: 3% 2%;
+}
+
+.pepperoni-machete {
+	display: block;
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+	border-radius: 200px;
+	margin: 5% 0;
+}
+
+.pepperoni-machete a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Style rules for main content  */
+main {
+	background-color: #fff;
+}
+
+aside {
+    padding: 2%;
+}
+
+footer {
+	font-size: .70em;
+	text-align: center;
+}

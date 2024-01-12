@@ -1,0 +1,35 @@
+/*
+Name: Connor Shoen
+Date: 1/12/24
+File: styles-a.html
+*/
+
+/* Style for body specifies a background color */
+body {
+	background: linear-gradient(to top right, #fff 0%, #6699ff 100%) no-repeat fixed center;
+    font-family: Geneva, Arial, sans-serif;
+}
+
+/* Style for the container element */
+#container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+/* Style rules for form elements */
+table {
+	display: block;
+	width: 40%;
+	margin: 0 auto;
+}
+/* Style for the footer element */
+footer {
+	font-size: .9em;
+	text-align: center;
+}
+
+/* Media query for tablet layout */ 
+@media only screen and (min-width: 600px) {
+
+    
+}

@@ -1,10 +1,8 @@
 /* CSS Document */
 
-/* CSS Reset */
-body, header, nav, footer {
+* {
 	margin: 0;
 	padding: 0;
-	border: 0;
 }
 
 body {
@@ -12,28 +10,39 @@ body {
 	background-color: #000;
 }
 
-header h1 {
-	text-align: center;
-	font-size: 2em;
+img {
+	width: 500%;
+	max-width: 300px;
 }
 
-nav {
+h1 {
+	text-align: center;
+	padding-bottom: 20%;
+}
+
+#grid {
+	display: grid;
+	grid-template-areas: 
+		"07 08 09"
+		"10 11 12";
+	grid-gap: 25px;
+	justify-content: center;
+	grid-auto-columns: 28% 28% 28%;
+	background-color: #121212;
+	padding: 2% 0;
+	border: solid #fff 1px;
+	border-collapse: collapse;
+}
+
+.cell {
 	display: block;
-	margin: 0 auto;
-	background-color: #454545;
-	font-size: 1.5em;
+	width: 20%;
 }
 
-nav ul {
-	list-style: none;
-	text-decoration: none;
-	text-align: center;
+#1 {
+	grid-area: 07;
 }
 
-nav ul li a {
-	list-style: none;
-	text-decoration: none;
-	background-color: #6e6e6e;
-	display: inline;
-	color: #000;
+#2 {
+	grid-area: 08;
 }
